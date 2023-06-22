@@ -16,14 +16,14 @@ public class test {
 
         System.out.println("hello1");
     }
+    @BeforeMethod
 
-    @BeforeClass
     public void Test2(){
 
         System.out.println("hello2");
     }
 
-    @BeforeMethod
+    @BeforeClass
     public void Test3(){
 
         System.out.println("hello3");
